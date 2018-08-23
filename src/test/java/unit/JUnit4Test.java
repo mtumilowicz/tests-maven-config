@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by mtumilowicz on 2018-08-23.
  */
-public class JUnit5Test {
+public class JUnit4Test {
     @Test
     public void test() {
         System.out.println("JUnit5Test");
