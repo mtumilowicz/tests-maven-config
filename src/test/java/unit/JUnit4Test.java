@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 public class JUnit4Test {
     @Test
     public void test() {
-        System.out.println("JUnit5Test");
+        System.out.println("JUnit4Test");
         assertTrue(true);
     }
 }
