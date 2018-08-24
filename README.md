@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/tests-maven-config.svg?branch=master)](https://travis-ci.com/mtumilowicz/tests-maven-config)
+
 # tests-maven-config
 
 _Reference_: https://maven.apache.org/surefire/maven-surefire-plugin/  
