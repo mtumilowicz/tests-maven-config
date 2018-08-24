@@ -5,12 +5,11 @@
 _Reference_: https://maven.apache.org/surefire/maven-surefire-plugin/  
 _Reference_: https://maven.apache.org/surefire/maven-failsafe-plugin/
 
-```
-<maven.test.plugin>2.22.0</maven.test.plugin>
-```
-
 # manual
-
+* plugins version
+    ```
+    <maven.test.plugin>2.22.0</maven.test.plugin>
+    ```
 * unit tests
     * `maven-surefire-plugin`
     * maven phase: `test`
