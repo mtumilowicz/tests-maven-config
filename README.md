@@ -83,12 +83,15 @@ We have 3 tests (that follow naming conventions):
 so running:
 * maven clean test:
     ```
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
     [INFO] Running GroovyTest
     [INFO] Running unit.JUnit4Test
     JUnit4Test
-    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in unit.JUnit4Test
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in unit.JUnit4Test
     GroovyTest
-    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.88 s - in GroovyTest
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.908 s - in GroovyTest
     [INFO] 
     [INFO] Results:
     [INFO] 
@@ -131,13 +134,14 @@ so running:
 
 * failsafe integration-test
     ```
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
     [INFO] Running integration.IntegrationIT
     IntegrationIT
-    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in integration.IntegrationIT
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in integration.IntegrationIT
     [INFO] 
     [INFO] Results:
     [INFO] 
     [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
     ```
-
-* maven clean verify
