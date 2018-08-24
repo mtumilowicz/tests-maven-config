@@ -53,6 +53,24 @@ _Reference_: https://maven.apache.org/surefire/maven-failsafe-plugin/
         </executions>
     </plugin>
     ```
+
+* to use spock you have to configure plugin to compile groovy files
+    ```
+    <plugin>
+        <groupId>org.codehaus.gmavenplus</groupId>
+        <artifactId>gmavenplus-plugin</artifactId>
+        <version>1.6.1</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>addTestSources</goal>
+                    <goal>compileTests</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+    ```
+    
     
 # project description
 We have 3 tests (that follow naming conventions):
