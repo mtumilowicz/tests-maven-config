@@ -163,3 +163,10 @@ so running:
     [INFO] 
     [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
     ```
+    
+# surefire vs failsafe
+* `maven-surefire-plugin` is designed for running unit tests and if 
+any of the tests fail then it will fail the build immediately.
+* `maven-failsafe-plugin` is designed for running integration tests, 
+and decouples failing the build if there are test failures from 
+actually running the tests.
